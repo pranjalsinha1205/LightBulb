@@ -7,7 +7,7 @@ function onBulb(){
     bulb.innerHTML = ``;
     bulb.innerHTML = `
         <button onclick=onBulb() id="on">Click to <strong>ON</strong> the bulb</button>
-        <img src="bulbOn.png" alt="Bulb is on" title="Bulb is on" style="height: 60vh; width: 20vw;">
+        <img src="pic_bulbon.gif" alt="Bulb is on" title="Bulb is on">
         <button onclick=offBulb() id="off">Click to <strong>OFF</strong> the bulb</button>
     `
 }
@@ -17,6 +17,6 @@ function offBulb(){
     bulb.innerHTML = ``;
     bulb.innerHTML = `
         <button onclick=onBulb() id="on">Click to <strong>ON</strong> the bulb</button>
-        <img src="bulbOff.png" alt="Bulb is off" title="Bulb is off" style="height: 60vh; width: 20vw;">
+        <img src="pic_bulboff.gif" alt="Bulb is off" title="Bulb is off">
         <button onclick=offBulb() id="off">Click to <strong>OFF</strong> the bulb</button>
     `}
