@@ -14,11 +14,16 @@
             <p>Click the buttons on either of the sides to on or off the bulbs</p>
         </section>
         <section>
-            <p id="bulb">
-                <button onclick=onBulb() id="on">Click to <strong>ON</strong> the bulb</button>
-                <img src="pic_bulboff.gif" alt="Bulb is off" title="Bulb is off"">
-                <button onclick=offBulb() id="off">Click to <strong>OFF</strong> the bulb</button>
-            </p>
+            <!-- <div id="bulb" aria-live="polite">
+                <button onclick="onBulb()" id="on">Click to <strong>ON</strong> the bulb</button>
+                <img src="pic_bulboff.gif" alt="Bulb is off" title="Bulb is off">
+                <button onclick="offBulb()" id="off">Click to <strong>OFF</strong> the bulb</button>
+                <button onclick="bulbAction()" id="actionButton">ON</button>
+            </div> -->
+            <div id="bulb">
+                <img src="pic_bulboff.gif" alt="Bulb is off" title="Bulb is off">
+            </div>
+            <button onclick="bulbAction()" id="actionButton">ON</button>
         </section>
     </main>
     <script src="script.js"></script>

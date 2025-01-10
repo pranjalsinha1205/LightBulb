@@ -70,3 +70,14 @@ h1, p{
     margin: 10px;
 }
 
+img {
+    transition: opacity 0.3s ease-in-out;
+}
+
+img.hidden {
+    opacity: 0;
+}
+
+img.visible {
+    opacity: 1;
+}
