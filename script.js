@@ -43,13 +43,16 @@
 
 let actionButton = document.getElementById("actionButton");
 let bulb = document.getElementById("bulb");
+let para = document.getElementById("para");
 
 function bulbAction(){
     if (actionButton.innerHTML === "ON"){
+        para.innerHTML = `The bulb is <strong>ON</strong>`
         bulb.innerHTML = `<img src="pic_bulbon.gif" alt="Bulb is on" title="Bulb is on">`;
         actionButton.innerHTML = "OFF";
     }
     else if (actionButton.innerHTML === "OFF"){
+        para.innerHTML = `The bulb is <strong>OFF</strong>`
         bulb.innerHTML = `<img src="pic_bulboff.gif" alt="Bulb is off" title="Bulb is off">`;
         actionButton.innerHTML = "ON";
     }
