@@ -12,24 +12,6 @@ html {
     width: 100%;
 }
 
-@media (max-width: 75em) { 
-    html {
-        font-size: 60%; /* Reduce font size slightly */
-    }
-}
-
-@media (max-width: 61.25em) { /* 980px */
-    html {
-        font-size: 58%;
-    }
-}
-
-@media (max-width: 28.75em) { /* 460px */
-    html {
-        font-size: 55%;
-    }
-}
-
 body {
     display: flex;
     align-items: center;
